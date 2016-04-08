@@ -9,7 +9,7 @@ public class Subject extends AbstractSubject {
 	
 	@Override
 	public void notifyObservers() {
-		super.observers.stream().forEach(ob -> ob.update());
+		//super.observers.stream().forEach(ob -> ob.update());
 	}
 
 }
